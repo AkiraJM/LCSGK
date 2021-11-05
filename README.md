@@ -31,8 +31,8 @@ python3 main.py
 ```
 which will run the FLCS kernel (LCS implementation) on the MUTAG dataset as default.
 
-To manage the experimental setting, we implement a class "exTask", which is in a list variable "tasklist" (you can check in the "main.py").
- Here are several examples to change the setting:
+To manage the experimental settings, we implement a class "exTask", which is in a list variable "tasklist" (you can check in the "main.py").
+ Here are several examples to change the settings:
  ```bash
 exTask(all_methods['LCSkernel'],
 {'s':[0.5],'rho':[0.2],'ot_maxIter':50,'ot_epsilon':0.01,'dist_mode':'euclidean','method':'LCS'},
