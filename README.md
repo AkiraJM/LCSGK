@@ -50,7 +50,7 @@ on both of the MUTAG and the PTC_MR datasets.
 To run the DTW implementation, you can change the value of "method" item in the parameter dict to a string 'DTW'. Please note that for the DTW implementation, you should 
 set the "dist_mode" item to specify a metric for computing distance of node/edge features. Here we use the Euclidean distance as default.
 
-##Citation
+## Citation
 If you find this useful, please cite it by using the following Bibtex citation:
  ```bash
 @article{huang2021lcs,
